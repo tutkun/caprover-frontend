@@ -46,7 +46,8 @@ export default class PasswordField extends Component<
         const self = this
         return (
             <Input
-                type="text"
+                // type={self.state.isShowing ? 'text' : 'password' }
+                type="password"
                 spellCheck={false}
                 autoCorrect="off"
                 autoComplete="off"
